@@ -1,8 +1,8 @@
 // Import modules
 const express = require('express');
 const cors = require('cors');
+require('dotenv').config()
 const corsOptions = require('./configs/cors-config');
-const routes = require('./routes');
 
 const app = express();
 
